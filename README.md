@@ -2,6 +2,12 @@
 
 ![Status for silinternational/ecs-deploy](https://github.com/silinternational/ecs-deploy/actions/workflows/ci.yml/badge.svg?branch=master)
 
+
+Fork from silinternational/ecs-deploy with fix for the deploy bug with more than 100 concurrent tasks.
+
+https://github.com/silinternational/ecs-deploy/issues/266
+
+
 This script uses the Task Definition and Service entities in Amazon's ECS to instigate an automatic blue/green deployment.
 
 ## NOTE: Maintenance Only
